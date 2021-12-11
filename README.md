@@ -1,3 +1,3 @@
 # Translator-App
 
-##Simple translation applicaion by fetching an API.
+Simple translation applicaion by fetching an API.
