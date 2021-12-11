@@ -1,1 +1,1 @@
-# Translato-App
+# Translator-App
