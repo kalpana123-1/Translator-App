@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translator App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Translator App</h1>
+    <div id="maincont">
+      <label for="lang">Please select a Language</label>
+      <select name="lang" id="Langs" onchange="getValue()"></select>
+      <br />
+      <br />
+      <textarea id="Box" rows="10" cols="50"> </textarea>
+      <textarea id="Box2" rows="10" cols="50"> </textarea>
+      <br />
+      <br />
+      <button id="button" onclick="handleTrigger()">Voice to text</button>
+      <button onclick="translateText()">Translate</button>
+      <button onclick="textToAudio()">Read This</button>
+    </div>
+  </body>
+</html>
+<script src="main.js"></script>
